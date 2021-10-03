@@ -1,0 +1,44 @@
+{
+	"analytics-uuid": "10a1f208-17b5-4a8a-9a0f-4d04434f1c88",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1633219551586
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "117321999397042221931",
+		"email": "acidvame.dev@gmail.com",
+		"email_verified": true,
+		"at_hash": "sVeOWBxhEBx2mRW398EGQA",
+		"iat": 1632188379,
+		"exp": 1632191979
+	},
+	"tokens": {
+		"expires_at": 1633236655337,
+		"refresh_token": "1//05JLVhHp3EqUBCgYIARAAGAUSNwF-L9Ir4cnLgn9AdathfnP7EPnE7Ni72OGDfPHUZelt46UyLJ8f0WrAnDM70U00p75MocwC_uc",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0ARrdaM8-9jUYQYDZ2qGxFIqLLpSraxXN-mJn4wSQ-_yFXO2yJCVx2BYgZJQfI_m3N5fHmr7f1JBqVS0zOl0D78QdM4l6tV5Proe85K5SGXImTFUN5qZKFlZyOFIG8x1Zz872gZf9FSMHghHFPSpwbmiPIRPS1JI92-0w7g",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjhkOTI5YzYzZmYxMDgyYmJiOGM5OWY5OTRmYTNmZjRhZGFkYTJkMTEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MzIxOTk5Mzk3MDQyMjIxOTMxIiwiZW1haWwiOiJhY2lkdmFtZS5kZXZAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJrLXZ3M01IU3JxREVHa0tCRFFDbUZ3IiwiaWF0IjoxNjMzMjMzMDQ4LCJleHAiOjE2MzMyMzY2NDh9.aneg0LzvxXc2WsfVCu6uKnIi2D4T6o_AVIT6gR0ufnKrCOY58kKCs5J8kIfJSxADtyqoVRLcK00xMGoyZkbuLBkedJziLOz7l0K_1Isb4B3gRVDslH7iHZ1EqpiCJqS7VDp-fIU1aiZZGizvGwOQALQFK09Tv4QuIAVO7q-X0twmcr2bQMXKUXssBQE6E7Xw-Fql2DU9Sbge8zkFSvueMNCFkZfXJ3JfvnFQNODhGU3GhpfRgd2_MlTuPdyRbls6aEetBOZ5k3l491cOtfx9xaFMnJXX4XLCb3eZvS4iosjwhtzs_qS7PcDunwB7qXm0Vhu8C6bLlZRYJJcHDwSxyg"
+	},
+	"activeProjects": {
+		"/Users/jfcode27/Sapphire/tadeo": "acidweb-5ab9c"
+	}
+}
