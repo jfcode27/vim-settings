@@ -32,6 +32,12 @@ nnoremap <C-y> 10<C-y>
 nmap <Leader>s <Plug>(easymotion-s2)
 nnoremap <leader>nt :NERDTreeFind<CR>
 
+
+inoremap <silent><expr> <Tab>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<Tab>" :
+      \ coc#refresh()
+
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -59,7 +65,7 @@ Plug 'christoomey/vim-tmux-navigator'
 " autocomplete
 Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
-Plug 'honza/vim-snippets'
+Plug 'mattn/emmet-vim'
 "IDE
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf'
@@ -186,6 +192,7 @@ let g:WebDevIconsDefaultFolderSymbolColor = s:beige " sets the color for folders
 let g:WebDevIconsDefaultFileSymbolColor = s:blue " sets the color for files that did not match any rule
 
 colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
 highlight Normal     ctermbg=NONE guibg=NONE
 highlight LineNr     ctermbg=NONE guibg=NONE
 highlight SignColumn ctermbg=NONE guibg=NONE
@@ -194,4 +201,18 @@ nnoremap <silent> <Leader><C-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <Leader><C-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <Leader><C-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <Leader><C-l> :TmuxNavigateRight<cr>
+let g:jsx_ext_required = 0
+let g:user_emmet_install_global = 0
+let g:user_emmet_leader_key='<Tab>'
+let g:user_emmet_settings = {
+  \  'javascript.jsx' : {
+    \      'extends' : 'jsx',
+    \  },
+  \}
+autocmd FileType html,css,javascript.jsx EmmetInstall
+au FileType javascript setlocal formatprg=prettier
+au FileType javascript.jsx setlocal formatprg=prettier
+au FileType typescript setlocal formatprg=prettier\ Ñ parser\ typescript
+
+
 

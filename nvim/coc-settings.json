@@ -1,1 +1,7 @@
-"coc.preferences.noselect": false
+{
+"suggest.enablePreselect": false,
+"suggest.noselect": false,
+"emmet.includeLanguages":{"vue-html": "html", "javascript": "javascriptreact"}
+}
+
+
