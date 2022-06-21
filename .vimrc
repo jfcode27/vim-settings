@@ -47,9 +47,11 @@ endif
 " syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'olimorris/onedarkpro.nvim'
 Plug 'maximbaz/lightline-ale'
 Plug 'vim-airline/vim-airline'
+Plug 'AndrewRadev/tagalong.vim'
 "Tree
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -78,6 +80,7 @@ Plug 'neoclide/coc.nvim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-startify'
+Plug 'github/copilot.vim'
 " post install (yarn install | npm install) then load plugin only for editing supported files
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
@@ -191,8 +194,8 @@ let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets th
 let g:WebDevIconsDefaultFolderSymbolColor = s:beige " sets the color for folders that did not match any rule
 let g:WebDevIconsDefaultFileSymbolColor = s:blue " sets the color for files that did not match any rule
 
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
+
+colorscheme onedarkpro
 highlight Normal     ctermbg=NONE guibg=NONE
 highlight LineNr     ctermbg=NONE guibg=NONE
 highlight SignColumn ctermbg=NONE guibg=NONE
@@ -214,5 +217,5 @@ au FileType javascript setlocal formatprg=prettier
 au FileType javascript.jsx setlocal formatprg=prettier
 au FileType typescript setlocal formatprg=prettier\ Ñ parser\ typescript
 
-
+let g:tagalong_filetypes = ['html', 'javascriptreact', 'jsx', 'typescript', 'typescriptreact', 'tsx']
 

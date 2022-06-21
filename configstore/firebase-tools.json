@@ -8,23 +8,23 @@
 		"node8DeploysDisabledAfter": 1613390400000,
 		"node8RuntimeDisabledAfter": 1615809600000,
 		"node8WarnAfter": 1600128000000,
-		"fetched": 1633460505481
+		"fetched": 1641310242923
 	},
 	"usage": false,
 	"user": {
 		"iss": "accounts.google.com",
 		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
 		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
-		"sub": "117321999397042221931",
-		"email": "acidvame.dev@gmail.com",
+		"sub": "116682595256052854004",
+		"email": "devmoebius@gmail.com",
 		"email_verified": true,
-		"at_hash": "sVeOWBxhEBx2mRW398EGQA",
-		"iat": 1632188379,
-		"exp": 1632191979
+		"at_hash": "A8XfbsI70QescY4xom79yg",
+		"iat": 1640817538,
+		"exp": 1640821138
 	},
 	"tokens": {
-		"expires_at": 1633464108356,
-		"refresh_token": "1//05JLVhHp3EqUBCgYIARAAGAUSNwF-L9Ir4cnLgn9AdathfnP7EPnE7Ni72OGDfPHUZelt46UyLJ8f0WrAnDM70U00p75MocwC_uc",
+		"expires_at": 1641314367287,
+		"refresh_token": "1//056qdh-DAW-4ICgYIARAAGAUSNwF-L9IrzFD5Q_8-ijmV9pp1CRJ50VhqVZpK6-EsXGZ1z4ppmhTERlO53Oc7XORi1pHmEbqi1M0",
 		"scopes": [
 			"email",
 			"https://www.googleapis.com/auth/cloud-platform",
@@ -32,13 +32,14 @@
 			"https://www.googleapis.com/auth/firebase",
 			"openid"
 		],
-		"access_token": "ya29.a0ARrdaM8aJO0avqNBozgHeLXEthtNSLaECIL42-zVrovrLCYZRRpNSqfLhcCpMXiuK62VWMk1UMcU4RqZTCs7FzhtYfBjeX4XEBPCsw0TRsBlSKEYvEEHbW8cVy7kbZJS1wMgizeuIBEo6XeMmkLYGk2Th_c29qbSZLY9Pg",
+		"access_token": "ya29.a0ARrdaM_lcKGdl9yFmbVhHa9dSrv_PmOvYf7Y2_dFTFQdMAdbbWPfy-B2YXNblQeIG9wX-FtEm7cD8eeGjSIpO7iwxVWtF89vwBUsOzoA7CWZstwp8kJkAhGMbksLLFMA4hWdxRAeTqj-VTPmtey9aujJ80kP7fGVbjQGvw",
 		"expires_in": 3599,
-		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform",
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform openid",
 		"token_type": "Bearer",
-		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjhkOTI5YzYzZmYxMDgyYmJiOGM5OWY5OTRmYTNmZjRhZGFkYTJkMTEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MzIxOTk5Mzk3MDQyMjIxOTMxIiwiZW1haWwiOiJhY2lkdmFtZS5kZXZAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJyTjhlb1cyWU9ZcmF2eU1WZE0wT0Z3IiwiaWF0IjoxNjMzNDYwNDk2LCJleHAiOjE2MzM0NjQwOTZ9.u8b5nSedf-jrIKezjpP7i4tK0WwlZkabfQjCeCja2PtxZMpuogqYUwMXCC45k27D2n4QRKo3LG2ylvnK-0XNJrpaoI8Z874uVFCq40i_M_iL-9QBH6mGLSK7juLyjos1-xQ2YH4uQE-LI_lmkXlGoOBS13_WJZdhaGD-hUz5Mk9NRPjYSUf2SvYQmmoOvnfE6yhYpFUkVUf0wrtiRDj6c2YrSM9XF89lfHYiKNJpeFQgjeSQ07kONKnkO37RWd_-ivMyo6gkFnwgw8bbiHxr8JaAI6xcH5Dx_QrjT1aZmxkLNUqTJivfDc89MklCps3OBO1kIuCsa2ATdEn0TowSYw"
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwMWMxYWJlMjQ5MjY5ZjcyZWY3Y2EyNjEzYTg2YzlmMDVlNTk1NjciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2NjgyNTk1MjU2MDUyODU0MDA0IiwiZW1haWwiOiJkZXZtb2ViaXVzQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiM21BWTZzei1UOXdza2N4OVlZWXNIQSIsImlhdCI6MTY0MTMxMDU5NiwiZXhwIjoxNjQxMzE0MTk2fQ.b42LkvhuzF-J5qnYxn3uSmuyDolC5hzBK35eurgLxZvvselFy5Ly9s1IXbRcU1ttIIKR2eSQpRUzuHO0llZ1CvkCDr5R6i9ezMrjW0YoAWl3yt0Im5Dop1isMKnGyjLCw_1w1ZSztDkfvJPhZld6e297VW8v-RB2XYNo7OIkSBNbFSvh5HRe1K_tIkjJ4GN_03WgIwzjRq7Hel52stHWD3qvAkS7YRYmJ3ycZ-W-3y7fmv8JrC6TIG5fu7lGB5rB2_R45hK1lUJLMf8Ck4Ho_kZQW6ZAICja-ZmtK9k8zjF7iUvd2lZqokbK0BqHU1QCwnce4HKmacDCFC4V6zgO9w"
 	},
 	"activeProjects": {
-		"/Users/jfcode27/Sapphire/tadeo": "acidweb-5ab9c"
+		"/Users/jfcode27/Sapphire/tadeo": "acidweb-5ab9c",
+		"/Users/jfcode27/Sapphire/moebius": "moebius-4d8e4"
 	}
 }
